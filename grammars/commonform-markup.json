@@ -35,7 +35,7 @@
     },
     {
       "comment": "Form",
-      "begin": "^(.+)?((\\\\\\\\)|!!)",
+      "begin": "^\\\\(.+)?((\\\\)|!!)",
       "captures": {
         "1": {"name":"constant.language"},
         "2": {"name":"storage.modified"}
